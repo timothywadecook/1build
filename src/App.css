@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
+html {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
+  font-family: "Open Sans";
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#root {
+  width: 100vw;
+  min-height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
+.screen {
+  width: 100vw;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex: 1;
+  color: #182048;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-weight: "inherit";
+  font-style: inherit;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:focus {
+  outline: none;
+}
+
+button:active {
+  opacity: 0.7;
+}
+
+.signupButton {
+  cursor: pointer;
+  background: linear-gradient(180deg, #2f80ed 0%, #183cbd 100%);
+}
+
+.signupButton:hover {
+  background: #182048;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.toggleDropdown {
+  cursor: pointer;
+}
+
+.toggleDropdown:hover {
+  opacity: 0.7;
+}
+
+img {
+  object-fit: cover;
+}
+
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid black;
+}
+
+/* Rectangle 9 */
+
+#rectangle9 {
+  position: absolute;
+  width: 317.8px;
+  height: 332.8px;
+  left: 335.33px;
+  top: 296.47px;
+
+  background: radial-gradient(
+    41.91% 41.91% at 50% 33.82%,
+    #ffffff 0%,
+    rgba(251, 223, 153, 0) 75%
+  );
+  mix-blend-mode: lighten;
+}
+
+/* Rectangle 10 */
+
+#rectangle10 {
+  position: absolute;
+  width: 193.44px;
+  height: 202.67px;
+  left: 498.83px;
+  top: 177px;
+
+  background: radial-gradient(
+    41.91% 41.91% at 50% 33.82%,
+    #ffffff 0%,
+    rgba(251, 153, 153, 0) 75%
+  );
+  mix-blend-mode: lighten;
+  opacity: 0.9;
+}
+
+/* Rectangle 15 */
+
+#rectangle15 {
+  position: absolute;
+  width: 225.68px;
+  height: 236.8px;
+  left: 243.21px;
+  top: 708.2px;
+
+  background: radial-gradient(
+    41.91% 41.91% at 50% 33.82%,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0.52) 17.71%,
+    rgba(153, 251, 163, 0) 58.85%
+  );
+  background-blend-mode: screen;
+  mix-blend-mode: lighten;
+  opacity: 0.7;
 }

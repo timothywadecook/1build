@@ -1,46 +1,21 @@
-# Getting Started with Create React App
+# About the Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This site was whipped up using CRA with the Typescript template to get going quickly.
 
-## Available Scripts
+It's not perfect, but it was fun to work on and it's where I could get in the amount of time I allocated.
 
-In the project directory, you can run:
+If I spent more time on this, I would've asked more questions to Chris. I actually got hung up on rendering the drop shadow behind the hero image. I wanted to figure it out because it was a sick looking design, but before burning too much time I decided to keep moving forward and only come back if I had time. Maybe this weekend :).
 
-### `yarn start`
+I also would eventually figure out a consistent approach to managing the CSS. I am generally a fan of inline styling and using flex box becuase it makes it easier to go back and forth with React Native. However, there were a number of things I just threw into the App.css partially to move quickly and partially because I read there may be cross-browser compatibiltiy issues with trying to inline, eg. psuedo classes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Oh, also I didn't recognize the format of the "posted" timestamp. So moment thinks people were posting "51 years ago" lol.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Get running
 
-### `yarn test`
+1. download the repo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. npm install
 
-### `yarn build`
+3. npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. navigate to localhost:3000
